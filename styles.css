@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #F4D9D0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    margin-top: 90px;
+}
+
+#quoteDisplay {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2F3645;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a4661;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 42px);
+    max-width: 300px;
+}
